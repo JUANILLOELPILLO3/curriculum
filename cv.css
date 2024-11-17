@@ -1,56 +1,57 @@
 /* General */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 0;/*margin y padding Elimina el margen y el relleno predeterminado.*/
     padding: 0;
     background-color: #f4f4f4;
 }
 
 nav ul {
-    list-style: none;
+    list-style: none;/* Elimina los puntos o números predeterminados de la lista.*/
     background: #333;
     padding: 10px;
-    text-align: center;
+    text-align: center;/*Centra horizontalmente el contenido del menú.*/
+    
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    display: inline;/*Hace que los elementos de la lista se comporten como elementos en línea.*/
+    margin: 0 15px;/* Añade espacio horizontal entre los enlaces.*/
 }
 
 nav ul li a {
     color: white;
-    text-decoration: none;
+    text-decoration: none;/*Elimina el subrayado de los enlaces.*/
 }
 
 footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
+    background: #333;/*Fondo negro para el pie de página.*/
+    color: white;/* Texto blanco.*/
+    text-align: center;/*Texto centrado*/
+    padding: 10px 0;/* Espacio interno en la parte superior e inferior.*/
     position: relative;
     bottom: 0;
-    width: 100%;
+    width: 100%;/*Hace que el pie de página ocupe todo el ancho de la página.*/
 }
 
 /* Estilos específicos del CV */
 .left-column {
     background-color: #e9ecef;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 10px;/*Bordes redondeados.*/
 }
 
 .profile-img {
-    width: 100%;
-    max-width: 150px;
-    border-radius: 50%;
-    margin-bottom: 20px;
+    width: 100%;/*La imagen se adapta al contenedor.*/
+    max-width: 150px;/*Tamaño máximo de 150px.*/
+    border-radius: 50%;/*Hace la imagen circular.*/
+    margin-bottom: 20px;/*Añade espacio inferior*/
 }
 
 .section-title {
-    border-bottom: 2px solid #333;
-    margin-bottom: 15px;
-    padding-bottom: 5px;
+    border-bottom: 2px solid #333;/*Agrega una línea inferior negra.*/
+    margin-bottom: 15px;/* Espacio entre el título y el contenido siguiente.*/
+    padding-bottom: 5px;/*Espacio interno inferior.*/
 }
 
 .right-column {
@@ -65,10 +66,10 @@ ul {
 ul li::before {
     content: "•";
     color: #007bff;
-    margin-right: 8px;
+    margin-right: 8px;/* Agrega un punto azul personalizado antes de cada elemento de lista.*/
 }
 .fullscreen-center {
-    display: flex;
+    display: flex;/*Activa Flexbox para alinear contenido.*/
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
     min-height: 100vh; /* La altura será igual al 100% de la ventana */

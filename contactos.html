@@ -5,72 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="stylesheet" href="cv.css">
-  
-</head>
-<body>
-    <!-- Menú de navegación -->
-    <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="cv.html">Currículum</a></li>
-            <li><a href="contactos.html">Contacto</a></li>
-        </ul>
-    </nav>
-
-    <!-- Contenido principal -->
-    <main>
-        <div class="contact-container">
-            <h1>Formulario de Contacto</h1>
-            <p>Por favor, completa el formulario y nos pondremos en contacto contigo lo antes posible.</p>
-            <form id="contact-form" action="#" method="POST">
-                <table>
-                    <tr>
-                        <td><label for="name">Nombre/Empresa:</label></td>
-                        <td><input type="text" id="name" name="name" placeholder="Tu nombre o el de tu empresa" required></td>
-                    </tr>
-                    <tr>
-                        <td><label for="profession">Sector/Profesión:</label></td>
-                        <td><input type="text" id="profession" name="profession" placeholder="Tu profesión o sector" required></td>
-                    </tr>
-                    <tr>
-                        <td><label for="country">País:</label></td>
-                        <td>
-                            <select id="country" name="country" required>
-                                <option value="">Selecciona un país</option>
-                                <option value="España">España</option>
-                                <option value="Portugal">Portugal</option>
-                                <option value="Francia">Francia</option>
-                                <option value="Inglaterra">Inglaterra</option>
-                                <option value="Alemania">Alemania</option>
-                            </select>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><label for="email">Correo Electrónico:</label></td>
-                        <td><input type="email" id="email" name="email" placeholder="tuemail@ejemplo.com" required></td>
-                    </tr>
-                    <tr>
-                        <td><label for="phone">Teléfono:</label></td>
-                        <td><input type="text" id="phone" name="phone" placeholder="123456789" required></td>
-                    </tr>
-                    <tr>
-                        <td><label for="message">Mensaje:</label></td>
-                        <td><textarea id="message" name="message" rows="4" placeholder="Escribe tu mensaje aquí" required></textarea></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2" style="text-align: center;">
-                            <button type="submit">Enviar</button>
-                        </td>
-                    </tr>
-                </table>
-            </form>
-        </div>
-    </main>
-
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 [Tu Nombre]. Todos los derechos reservados.</p>
-    </footer>
-</body>
-</html>
+        
+                </head>
+                <body>
+                    <!-- Menú de navegación -->
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="cv.html">Currículum</a></li>
+                            <li><a href="contactos.html">Contacto</a></li>
+                        </ul>
+                    </nav>
+                
+                    <!-- Contenido principal -->
+                    <main>
+                        <div class="contact-container">
+                            <h1>Formulario de Contacto</h1>
+                            <p>Por favor, completa el formulario y nos pondremos en contacto contigo lo antes posible.</p>
+                            <form id="contact-form" action="#" method="POST">
+                                <table><!-- Organiza los campos del formulario en filas y columnas.-->
+                                   <tr><!--Representa una fila de la tabla.-->
+                                        <td><label for="name">Nombre/Empresa:</label></td><!-- Define una celda en la tabla.-->
+                                        <td><input type="text" id="name" name="name" placeholder="Tu nombre o el de tu empresa" required></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="profession">Sector/Profesión:</label></td>
+                                        <td><input type="text" id="profession" name="profession" placeholder="Tu profesión o sector" required></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="country">País:</label></td>
+                                        <td>
+                                            <select id="country" name="country" required><!--Crea un menú desplegable-->
+                                                <option value="">Selecciona un país</option><!--Define cada opción en el menú-->
+                                                <option value="España">España</option>
+                                                <option value="Portugal">Portugal</option>
+                                                <option value="Francia">Francia</option>
+                                                <option value="Inglaterra">Inglaterra</option>
+                                                <option value="Alemania">Alemania</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="email">Correo Electrónico:</label></td><!--Valida automáticamente que el formato ingresado sea un correo válido.-->
+                                        <td><input type="email" id="email" name="email" placeholder="tuemail@ejemplo.com" required></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="phone">Teléfono:</label></td>
+                                        <td><input type="text" id="phone" name="phone" placeholder="123456789" required></td><!--Entrada de texto-->
+                                    </tr>
+                                    <tr>
+                                        <td><label for="message">Mensaje:</label></td>
+                                        <td><textarea id="message" name="message" rows="4" placeholder="Escribe tu mensaje aquí" required></textarea></td><!-- Campo de texto para mensajes largos.-->
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2" style="text-align: center;"><!-- Combina las dos columnas de la tabla en una fila-->
+                                            <button type="submit">Enviar</button><!-- Botón para enviar el formulario-->
+                                        </td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </div>
+                    </main>
+                
+                    <!-- Footer -->
+                    <footer>
+                        <p>&copy; 2024 [Tu Nombre]. Todos los derechos reservados.</p>
+                    </footer>
+                </body>
+                </html>
 
